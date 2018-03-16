@@ -15,11 +15,15 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class FeedPage {
 
+  public username:string = "Tharles Amaro";
+
+  public addTwoNumbers = (number1: number, number2: number) => {alert(number1 + number2)};
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad FeedPage');
+    this.addTwoNumbers(5,5);
   }
-
 }
