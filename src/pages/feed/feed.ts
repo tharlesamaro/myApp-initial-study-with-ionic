@@ -24,6 +24,5 @@ export class FeedPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad FeedPage');
-    this.addTwoNumbers(5,5);
   }
 }
